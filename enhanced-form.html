@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Differences Between fruits and Vegetables</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fruits</th>
+                <th>Vegetables</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fruits develop from the flower of  a plant and contain seeds</td>
+                <td>Are the other edible parts of a plant </td>
+            </tr>
+            <tr>
+                <td>Usually contains seeds</td>
+                <td>Typically does not contain seeds</td>
+            </tr>
+            <tr>
+                <td>Often sweet or sour in flavor,eaten raw or in deserts </td>
+                <td>Usually savory or bitter ,and more often cooked</td>
+            </tr>
+            <tr>
+                <td>Used in deserts ,smoothies and jams</td>
+                <td>Common in soup,stews,stir-fries and salads </td>
+            </tr>
+            <tr>
+                <td>Aids in seed dispersal and plant reproduction</td>
+                <td>part of the plant that supports growth</td>
+            </tr>
+    </table>
+
+    <h2>Examples of fruits</h2>
+    <ul >
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ul>
+
+    <h2>Examples of vegetables</h2>
+    <ul>
+        <li>Carrot</li>
+        <li>Broccoli</li>
+        <li>Spinach</li>
+        <li>Potato</li>
+        <li>Cauliflower</li>
+    </ul>
+    <h2>Image of fruits</h2>
+    <img src="fruits.png" alt="fruits" style="width: 300px; height: 200px;">
+    <br>
+    <br>
+    <h2>Image of vegetables</h2>
+    <img src="vegetables.png" alt="vegetables" style="width: 300px; height: 200px;">
+    <br>
+    <br>
+    <h2>login To recieve Better infomation</h2>
+    <form action="submit_form.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required pattern="[A-Za-z0-9]{5,15}" title="5 to 15 alphanumeric characters" maxlength="15" minlength="5" autocomplete="username" placeholder="Enter your username">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email" maxlength="50" minlength="5" autocomplete="email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required pattern=".{8,}" title="Eight or more characters" maxlength="15" minlength="8" autocomplete="current-password" placeholder="Enter your password">
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+    <br>
+</body>
+</html>
